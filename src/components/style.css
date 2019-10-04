@@ -1,0 +1,16 @@
+.cardsstyle {
+    border: 1px solid gray;
+    font-family: cursive;
+}
+
+.cardsstyle:hover{
+    transform: scale(1.05);
+    transition: 0.12s;
+}
+
+.headerline{
+    width: 100%;
+    height: 2vh;
+    top:0;
+    box-shadow: 0 14px 28px rgb(141, 94, 8);
+}
