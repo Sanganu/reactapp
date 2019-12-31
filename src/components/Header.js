@@ -11,9 +11,11 @@ import React from 'react';
 
 
 
-function Header ()  {
+function Header (props)  {
   return(<div className="headerline">
          <h2>Memory GAME</h2>
+         <h5>Score: {props.score}</h5>
+         <span>TopScore: {props.topscore}</span>
       </div>)
 }
 

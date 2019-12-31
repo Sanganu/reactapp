@@ -1,66 +1,39 @@
 import React, { Component } from 'react';
 import Cards from "../components/Cards";
+import data from "../data/data";
+import  Header from "../components/Header";
 
 class Game extends Component{
     state = {
-        items : [
-           {
-              id:1, 
-              src:"/Images/image8.jfif",
-              clicked: false
-           } ,
-           {
-            id:2, 
-            src:"/Images/image7.jfif",
-            clicked: false
-           } ,
-           {
-            id:3, 
-            src:"/Images/image6.jfif",
-            clicked: false
-           } ,
-           {
-            id:4, 
-            src:"/Images/image9.jfif",
-            clicked: false
-           } ,
-           {
-            id:5, 
-            src:"/Images/image5.jfif",
-            clicked: false
-           } ,
-           {
-            id:6, 
-            src:"/Images/image4.jfif",
-            clicked: false
-           } ,
-           {
-            id:7, 
-            src:"/Images/image3.jfif",
-            clicked: false
-           },
-           {
-            id:8, 
-            src:"/Images/image1.jif",
-            clicked: false
-            } ,
-            {
-                id:9, 
-                src:"/Images/image2.jfif",
-                clicked: false
-             } ,
-             {
-                id:10, 
-                src:"/Images/image10.jfif",
-                clicked: false
-             } 
-        ],
-        selecteditem : ""
+        items :[],
+        selecteditem : "",
+        score: 0,
+        topscore : 0
     }
-
+    componentDidMount = () => {
+        this.setState({items:data})
+    }
     cardClicked = (id) => {
-     console.log("Id",id)
-     this.setState({selecteditem:id});
+     console.log("Id",id);
+     let score = this.state.score;
+     let topscore = this.state.topscore;
+     let items = this.state.items;
+     for(let  i =0;i<items.length;i++){
+         if( items[i].id === id){
+             if(items[i].clicked === false){
+                items[i].clicked = true;
+                score++; 
+             }
+             else{
+                if (score > topscore){
+                    topscore = score;
+                    score = 0;
+                }
+            
+             }
+         }
+     }
+
      this.shuffleItems();
     }
 
@@ -82,6 +55,7 @@ class Game extends Component{
 
     render(){
         return(<div>
+            <Header />
             {this.state.items.map(item=>(
                 <Cards imagesrc={item.src}
                 key={item.id}
