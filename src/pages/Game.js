@@ -36,13 +36,12 @@ class Game extends Component{
                 else{
                     if (score > topscore){
                         topscore = score;
-                        score = 0;
-                        cont = false;
-                        for(let i=0;i<items.length;i++){
-                            items[i].clicked =false
-                        }
                     }
-                
+                    score = 0;
+                    cont = false;
+                    for(let i=0;i<items.length;i++){
+                        items[i].clicked =false
+                    }
                 }
             }
             i++;
