@@ -34,11 +34,11 @@ class Game extends Component{
          }
      }
 
-     this.shuffleItems();
+     items = this.shuffleItems(items);
+     this.setState({items,score,topscore})
     }
 
-    shuffleItems = () => {
-        let items = this.state.items;
+    shuffleItems = (items) => {
         let datalength = items.length;
         let count = 0;
         while(count < (datalength/2)){
@@ -50,12 +50,14 @@ class Game extends Component{
             count++;
         }
         console.log(items);
-        this.setState({items})
+        return items;
     }
 
     render(){
         return(<div>
-            <Header />
+            <Header
+               score={this.state.score}
+               topscore={this.state.topscore} />
             {this.state.items.map(item=>(
                 <Cards imagesrc={item.src}
                 key={item.id}
