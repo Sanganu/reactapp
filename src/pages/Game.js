@@ -71,7 +71,7 @@ class Game extends Component{
                topscore={this.state.topscore} />
             {this.state.items.map((item,key)=>(
                 <Cards imagesrc={item.src}
-                key={item.key}
+                key={key}
                 id={item.id}
                 clciked={item.clicked}
                 cardClicked = {this.cardClicked} />
