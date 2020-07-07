@@ -1,52 +1,52 @@
 [
     {
        "id":1, 
-       "src":"/Images/image8.jfif",
+       "src":"./Images/image8.jfif",
        "clicked": false
     } ,
     {
      "id":2, 
-     "src":"/Images/image7.jfif",
+     "src":"./Images/image7.jfif",
      "clicked": false
     } ,
     {
      "id":3, 
-     "src":"/Images/image6.jfif",
+     "src":"./Images/image6.jfif",
      "clicked": false
     } ,
     {
      "id":4, 
-     "src":"/Images/image9.jfif",
+     "src":"./Images/image9.jfif",
      "clicked": false
     } ,
     {
      "id":5, 
-     "src":"/Images/image5.jfif",
+     "src":"./Images/image5.jfif",
      "clicked": false
     } ,
     {
      "id":6, 
-     "src":"/Images/image4.jfif",
+     "src":"./Images/image4.jfif",
      "clicked": false
     } ,
     {
      "id":7, 
-     "src":"/Images/image3.jfif",
+     "src":"./Images/image3.jfif",
      "clicked": false
     },
     {
      "id":8, 
-     "src":"/Images/image1.jif",
+     "src":"./Images/image1.jif",
      "clicked": false
      } ,
      {
        "id":9, 
-       "src":"/Images/image2.jfif",
+       "src":"./Images/image2.jfif",
        "clicked": false
       } ,
       {
        "id":10, 
-       "src":"/Images/image10.jfif",
+       "src":"./Images/image10.jfif",
        "clicked": false
       } 
  ]
