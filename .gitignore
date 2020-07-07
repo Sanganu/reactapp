@@ -86,3 +86,4 @@ yarn-error.log*
 //Adding Lock files
 yarn.lock
 package-lock.json
+build

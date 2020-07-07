@@ -3,10 +3,10 @@ import React from 'react';
 // import "./style.css";
 
 function Footer ()  {
-  return(<div>
+  return(<footer className="#0d47a1" >
        <p>&copy;Sangeetha Kaliaperumal</p>
 
-      </div>)
+      </footer>)
 }
 
 export default Footer;

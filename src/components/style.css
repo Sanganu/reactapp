@@ -1,5 +1,5 @@
 .cardsstyle {
-    border: 1px solid gray;
+    border: 5px solid gray;
     border-radius: 20px;
 }
 
@@ -18,10 +18,23 @@
 .scoreboard{
     width: 20vw;
     height: 20vh;
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(23, 133, 197);
     color: rgb(255, 255, 255);
     z-index:1;
-    position:fixed;
+    align-self: flex-end;                   
+    /* position:fixed;
     top:10;
-    left:2;
+    right:2; */
+}
+
+header{
+    margin-bottom: 5%;
+ 
+}
+
+footer{
+    width: 100%;
+    background-color:#ec407a;
+    height:10%;
+ 
 }

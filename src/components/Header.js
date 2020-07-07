@@ -12,10 +12,11 @@ import React from 'react';
 
 
 function Header ()  {
-  return(<div className="headerline">
+  return(<header className="headerline #0d47a1">
+         <nav>
          <h2>Memory GAME</h2>
-        
-      </div>)
+        </nav>
+      </header>)
 }
 
 export default Header;
