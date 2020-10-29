@@ -5,9 +5,7 @@
 Managing state and props. 
 
 
-
-
-[screenshot](https://github.com/Sanganu/reactapp/blob/master/public/screenshot.PNG)
+![screenshot](https://github.com/Sanganu/reactapp/blob/master/public/screenshot.PNG)
 
 [Check Deployment] (https://sanganu.github.io/reactapp/)
 
