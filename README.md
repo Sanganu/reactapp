@@ -15,7 +15,7 @@
 
 
 
-![screenshot](https://github.com/Sanganu/reactapp/blob/master/public/capture.PNG)
+![screenshot](https://github.com/Sanganu/reactapp/blob/master/public/Capture.PNG)
 
 [Check Deployment] (https://sanganu.github.io/reactapp/)
 
