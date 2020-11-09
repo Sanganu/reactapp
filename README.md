@@ -15,7 +15,7 @@
 
 
 
-![screenshot](https://github.com/Sanganu/reactapp/blob/master/public/screenshot.PNG)
+![screenshot](https://github.com/Sanganu/reactapp/blob/master/public/capture.PNG)
 
 [Check Deployment] (https://sanganu.github.io/reactapp/)
 
@@ -25,7 +25,7 @@
 Senior Tutor & Grader
 Trilogy Education
 
-###### LICENSE: ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+###### LICENSE: ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)`
 
 
 
