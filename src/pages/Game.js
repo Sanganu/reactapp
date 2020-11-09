@@ -77,7 +77,7 @@ class Game extends Component {
                     <Jumbotron />
                 </div>
             </div>
-            <div className="container">
+            <div className="container #e91e63">
                 <div className="row">
                     {this.state.items.map((item, key) => (
                         <Cards imagesrc={item.src}
