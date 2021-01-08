@@ -4,7 +4,7 @@ import React from 'react';
 
 function Footer ()  {
   return(<footer className="#0d47a1" >
-       <p>&copy;Sangeetha Kaliaperumal</p>
+       <p>&copy;Sangeetha.K, 2020</p>
 
       </footer>)
 }
